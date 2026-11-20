@@ -1,0 +1,23 @@
+# Sekrety
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Lokalne ustawienia Claude Code
+.claude/settings.local.json
+CLAUDE.local.md
+
+# .NET
+bin/
+obj/
+TestResults/
+
+# Node
+node_modules/
+dist/
+
+# System
+Thumbs.db
+.DS_Store
